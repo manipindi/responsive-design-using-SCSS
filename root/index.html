@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/index.css">
+    <script src="https://kit.fontawesome.com/0a4dad3d2b.js" crossorigin="anonymous"></script>
+    <title>SCSS</title>
+</head>
+
+<body>
+    <a id="topBtn" onclick="topFunction()" class="btn-scroll"><i class="fa fa-chevron-circle-up up-arrow"></i></a>
+    <div class="overlay-navigation" id="mynav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <nav class="overlay-navigation__content">
+            <li><a href="#home" class="overlay-navigation__link" id="homelink">HOME</a></li>
+            <li><a href="#about" class="overlay-navigation__link" id="aboutlink">ABOUT</a></li>
+            <li><a href="#services" class="overlay-navigation__link" id="serviceslink">SERVICES</a></li>
+            <li><a href="#skills" class="overlay-navigation__link" id="skillslink">SKILLS</a></li>
+            <li><a href="#education" class="overlay-navigation__link" id="educationlink">EDUCATION</a></li>
+            <li><a href="#experience" class="overlay-navigation__link" id="experiencelink">EXPERIENCE</a></li>
+            <li><a href="#work" class="overlay-navigation__link" id="worklink">WORK</a></li>
+            <li><a href="#contact" class="overlay-navigation__link" id="contactlink">CONTACT</a></li>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar__profile-img"></div>
+            <h1 id="sidebar__profile-name"></h1>
+            <span><a href="#" id="role"></a> <span id="region"> </span></span>
+
+            <nav class="sidebar__navigation">
+                <li><a href="#home" class="sidebar__navigation--link" id="home1"></a></li>
+                <li><a href="#about" class="sidebar__navigation--link" id="about1"></a></li>
+                <li><a href="#services" class="sidebar__navigation--link" id="services1"></a></li>
+                <li><a href="#skills" class="sidebar__navigation--link" id="skills1"></a></li>
+                <li><a href="#education" class="sidebar__navigation--link" id="education1"></a></li>
+                <li><a href="#experience" class="sidebar__navigation--link" id="experience1"></a></li>
+                <li><a href="#work" class="sidebar__navigation--link" id="work1"></a></li>
+                <li><a href="#contact" class="sidebar__navigation--link" id="contact-link"></a></li>
+            </nav>
+        </div>
+
+
+        <div class="main-container" id="main-content">
+
+            <section class="intro-section sub-sections" id="home"></section>
+
+            <section class="about-section" id="about"></section>
+
+            <section class="service-sec" id="services"></section>
+
+            <div class="transparent-img" data-stellar-background-ratio="0.5"></div>
+
+            <section class="skills-section" id="skills"></section>
+
+            <section class="education-section" id="education"></section>
+
+            <section class="experience-section" id="experience"></section>
+
+            <section class="work-section" id="work"></section>
+
+            <section class="contact-section" id="contact"></section>
+
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.contact-section {
+  padding-left: 5%;
+  margin-top: 2rem;
+}
+
+.contact-section .contact-section__heading {
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+}
+
+.contact-section .contact-section__heading span {
+  font-size: 10px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 5px;
+  color: #999;
+  font-weight: 500;
+}
+
+.contact-section .contact-section__heading h2 {
+  letter-spacing: 5px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.contact-section .contact-section__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.contact-section .contact-section__grid .contact-section__row {
+  margin-bottom: 3rem;
+}
+
+.contact-section .contact-section__grid .contact-section__row div {
+  background-color: #f2f3f7;
+  padding: 20px;
+  height: 10rem;
+  text-align: center;
+}
+
+.contact-section .contact-section__grid .contact-section__row div p {
+  margin: auto 10px;
+  font-family: "Quicksand", Arial, sans-serif;
+  color: #2C98F0;
+  font-weight: 600;
+}
+
+.contact-section .contact-section__grid .contact-section__row div i {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #2C98F0;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,71 @@
+.education-section {
+  padding-left: 5%;
+}
+
+.education-section .education-section__title {
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+}
+
+.education-section .education-section__title span {
+  font-size: 10px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 5px;
+  color: #999;
+  font-weight: 500;
+}
+
+.education-section .education-section__title h2 {
+  letter-spacing: 5px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.education-section .education-section__accordionPanel {
+  word-spacing: 2px;
+}
+
+.education-section .education-section__accordionPanel .education-section__accordion {
+  background-color: #f2f3f7;
+  border: 1px solid #e6e6e6 !important;
+  padding: 18px 25px;
+  display: block;
+  width: 100%;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Quicksand", Arial, sans-serif;
+  color: black;
+  cursor: pointer;
+  text-align: left;
+}
+
+.education-section .education-section__accordionPanel .education-section__accordionBody {
+  padding: 0 1.5rem;
+  margin-bottom: 5px;
+  font-family: "Quicksand", Arial, sans-serif;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.education-section .education-section__accordionPanel .education-section__accordionBody--display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education-section .education-section__accordionPanel .education-section__accordionBody--display p {
+  width: 50%;
+}
+
+.education-section .education-section__accordionPanel .education-section__accordion:after {
+  content: '\002B';
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=education.css.map */

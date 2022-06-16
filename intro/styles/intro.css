@@ -1,0 +1,58 @@
+.intro-section {
+  height: 100vh;
+  /* background: url('https://preview.colorlib.com/theme/jackson/images/ximg_bg_1.jpg.pagespeed.ic.K0-0yxdthm.webp'); */
+  background: url("https://cdn.pixabay.com/photo/2016/11/29/09/38/adult-1868750_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  -webkit-animation: slidein 10s infinite;
+          animation: slidein 10s infinite;
+}
+
+.intro-section .stickyheader {
+  position: fixed;
+  top: 0;
+  left: -1px;
+  width: 110%;
+  z-index: 9;
+}
+
+.intro-section .headercolor {
+  position: fixed;
+  top: 0;
+  left: -1px;
+  width: 110%;
+  background-color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-box-shadow: 2px 0px 10px gray;
+          box-shadow: 2px 0px 10px gray;
+}
+
+.intro-section .intro-section__heading {
+  padding-top: 20%;
+  padding-left: 5%;
+}
+
+.intro-section .intro-section__heading h2 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.intro-section .intro-section__heading p {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.intro-section .intro-section__heading button {
+  padding: 12px 17px;
+  font-size: 13px;
+  /* margin-left: 5%; */
+  background-color: transparent;
+  /* color: white; */
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 10px;
+  word-spacing: 3px;
+}
+/*# sourceMappingURL=intro.css.map */

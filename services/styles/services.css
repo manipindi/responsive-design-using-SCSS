@@ -1,0 +1,130 @@
+.service-sec {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 100px;
+}
+
+.service-sec .service-sec__heading {
+  margin-bottom: 2rem;
+}
+
+.service-sec .service-sec__heading span {
+  font-size: 10px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 5px;
+  color: #999;
+  font-weight: 500;
+}
+
+.service-sec .service-sec__heading h2 {
+  letter-spacing: 5px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.service-sec .service-sec__cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.service-sec .service-sec__cards .service-sec__card {
+  position: relative;
+  width: 100%;
+  height: 16rem;
+  position: relative;
+  -webkit-box-shadow: 5px 5px 30px #cdcdcd;
+          box-shadow: 5px 5px 30px #cdcdcd;
+  margin-top: 30%;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagon {
+  width: 100px;
+  height: 110px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 32%;
+  top: -50px;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagon i {
+  color: white;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagonColor1 {
+  background-color: #2C98F0;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagonColor2 {
+  background-color: #ED5553;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagonColor3 {
+  background-color: #F9BE3E;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagonColor4 {
+  background-color: #A84DB9;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagonColor5 {
+  background-color: #2EA599;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagonColor6 {
+  background-color: #4154B3;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card__content {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 15px;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card__content h3 {
+  margin-top: 34%;
+  font-weight: 600;
+}
+
+.service-sec .service-sec__cards .service-sec__card .service-sec__card__content p {
+  margin-top: 10%;
+}
+
+.service-sec .service-sec__cards .service-sec__card--bottomColor1 {
+  border-bottom: 2px solid #2C98F0;
+}
+
+.service-sec .service-sec__cards .service-sec__card--bottomColor2 {
+  border-bottom: 2px solid #ED5553;
+}
+
+.service-sec .service-sec__cards .service-sec__card--bottomColor3 {
+  border-bottom: 2px solid #F9BE3E;
+}
+
+.service-sec .service-sec__cards .service-sec__card--bottomColor4 {
+  border-bottom: 2px solid #A84DB9;
+}
+
+.service-sec .service-sec__cards .service-sec__card--bottomColor5 {
+  border-bottom: 2px solid #2EA599;
+}
+
+.service-sec .service-sec__cards .service-sec__card--bottomColor6 {
+  border-bottom: 2px solid #4154B3;
+}
+/*# sourceMappingURL=services.css.map */

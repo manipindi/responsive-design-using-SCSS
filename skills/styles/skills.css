@@ -1,0 +1,136 @@
+.skills-section {
+  padding-left: 5%;
+  margin-bottom: 5rem;
+}
+
+.skills-section .skills-section__heading {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.skills-section .skills-section__heading h2 {
+  letter-spacing: 5px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.skills-section .skills-section__heading .skill-ids {
+  font-size: 10px;
+  font-family: "Quicksand", Arial, sans-serif;
+  letter-spacing: 5px;
+  color: #999;
+  font-weight: 500;
+}
+
+.skills-section .skills-section__para {
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+.skills-section .skills-section__progressContainer {
+  margin-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.skills-section .skills-section__progressContainer .skills-section__progressWrap h3 {
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  color: #000;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.skills-section .skills-section__progressContainer .skills-section__progressWrap .skills-section__progress {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #f2f3f7;
+  overflow: visible;
+  height: 6px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.skills-section .skills-section__progressContainer .skills-section__progressWrap .skills-section__progress .skills-section__progressBar {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 12px;
+  line-height: 1.2px;
+  font-weight: 600;
+  text-align: right;
+  position: relative;
+  overflow: visible;
+  border-radius: 8px;
+  height: 100%;
+  float: left;
+}
+
+.skills-section .skills-section__progressContainer .skills-section__progressWrap .skills-section__progress .skills-section__progressBar span {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-weight: bold;
+  font-family: "Quicksand", Arial, sans-serif;
+}
+
+.skills-section .skills-section__progressBar:after {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  content: '';
+  background: #2c98f0;
+  border-radius: 50%;
+}
+
+.skills-section .skills-section__progressBar.skills-section__progressBar--color1::after {
+  background: #2c98f0;
+}
+
+.skills-section .skills-section__progressBar.skills-section__progressBar--color2::after {
+  background: #ED5553;
+}
+
+.skills-section .skills-section__progressBar.skills-section__progressBar--color3::after {
+  background: #F9BE3E;
+}
+
+.skills-section .skills-section__progressBar.skills-section__progressBar--color4::after {
+  background: #A84DB9;
+}
+
+.skills-section .skills-section__progressBar.skills-section__progressBar--color5::after {
+  background: #2EA599;
+}
+
+.skills-section .skills-section__progressBar.skills-section__progressBar--color6::after {
+  background: #4154B3;
+}
+
+.skills-section__progressBar--color1 {
+  background-color: #2C98F0;
+}
+
+.skills-section__progressBar--color2 {
+  background-color: #ED5553;
+}
+
+.skills-section__progressBar--color3 {
+  background-color: #F9BE3E;
+}
+
+.skills-section__progressBar--color4 {
+  background-color: #A84DB9;
+}
+
+.skills-section__progressBar--color5 {
+  background-color: #2EA599;
+}
+
+.skills-section__progressBar--color6 {
+  background-color: #4154B3;
+}
+/*# sourceMappingURL=skills.css.map */

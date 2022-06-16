@@ -1,0 +1,58 @@
+.transparent-img {
+    height: 40vh;
+    position: relative;
+    background: url('https://preview.colorlib.com/theme/jackson/images/xcover_bg_1.jpg.pagespeed.ic.qP4siTb4Tv.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    /* border: 1px solid red; */
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+
+    .transparent-img__overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        padding: 5%;
+    }    
+
+    .transparent-img__grid {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        position: relative;
+        z-index: 2;
+
+        .transparent-img__col {
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* border: 2px solid red; */
+            // margin-top: 5rem;
+
+            .transparent-img__content {
+                text-align: center;
+                font-weight: 1000;
+
+                .transparent-img__paraOne {
+                    color: white;
+                    font-size: 40px;
+                    font-family: "Quicksand", Arial, sans-serif;
+                    margin: 0;
+                }
+
+                .transparent-img__paraTwo {
+                    color: rgba(255, 255, 255, 0.7);
+                    font-size: 14px;
+                    letter-spacing: 5px;
+                    font-family: "Quicksand", Arial, sans-serif;
+                    line-height: 1.8;
+                }
+            }
+        }
+    }
+}

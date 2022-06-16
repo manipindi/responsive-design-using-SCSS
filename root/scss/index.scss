@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    /* font-family: "Quicksand", Arial, sans-serif; */
+    list-style-type: none;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .sidebar {
+        height: 100%;
+        overflow-y: auto;
+        float: left;
+        width: 300px;
+        background-color: aliceblue;
+        /* display: block; */
+        z-index: 11;
+        text-align: center;
+        padding-top: 3em;
+        padding-bottom: 40px;
+        position: fixed;
+
+        .sidebar__profile-img {
+            /* background: url('https://image.winudf.com/v2/image1/Y29tLmdhZ2Fyb2Noa2EuZWxvbm11c2t3YWxsX3NjcmVlbl8xXzE1OTQwNTAzNjBfMDc3/screen-1.jpg?fakeurl=1&type=.webp'); */
+            background: url("../../assets/background images/mani1.jpeg");
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* border: 2px solid red; */
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+
+        h1{
+            font-family: "Playfair Display", Georgia, serif;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        span{
+            font-size: 12px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            letter-spacing: 1px;
+
+            a{
+                text-decoration: none;
+                color: #2c98f0;
+            }
+        }
+
+        nav{
+            margin-top: 2em;
+            font-family: "Quicksand", Arial, sans-serif;
+            min-height: 55px;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 1px;
+
+            li{
+                list-style-type: none;
+                padding: 8px;
+                // margin-left: 0;
+            }
+
+            li a{
+                text-decoration: none;
+                letter-spacing: 1px;
+                color: #000;
+            }
+        }
+    }
+
+}
+
+.main-container {
+    width: calc(100% - 300px);
+    float: right;
+
+}
+
+
+.overlay-navigation {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1999;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    nav li {
+        line-height: 40px;
+         a {
+        position: relative;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        }
+    }
+
+    .overlay-navigation__content {
+        position: relative;
+        top: 20%;
+        text-align: center;
+    }
+
+    .closebtn {
+        position: absolute;
+        top: 0rem;
+        left: 0.7rem;
+        font-size: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #565656;
+    }
+}
+
+.btn-scroll {
+    position: fixed; 
+    bottom: 7%;
+    right: 2%;
+    z-index: 99;
+    cursor: pointer;
+    font-size: 60px;
+    border: none;
+    z-index: 190;
+    display: none;
+    
+    /* border-radius: 50%; */
+}
+
+.btn-scroll:hover {
+    font-size: 70px;
+    transition: 0.3s ease-in-out;
+    /* transition-timing-function: ease-in-out; */
+}
+
+@import "../../intro/styles/intro.scss";
+
+@import "../../about/styles/about.scss";
+
+@import "../../services/styles/services.scss";
+
+@import "../../transparent image/styles/transparent.scss";
+
+@import "../../skills/styles/skills.scss";
+
+@import "../../education/styles/education.scss";
+
+@import "../../experience/styles/experience.scss";
+
+@import "../../work/styles/work.scss";
+
+@import "../../contact/styles/contact.scss";
+
+@keyframes slideright {
+    from {
+        transform: translateX(-50px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidetop {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateX(50px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slideright-about-content {
+    animation-name: slideright;
+    animation-duration: 0.7s;
+    transition: transform 1.5s ease;
+    opacity: 1;
+}
+
+.slideright {
+    animation-name: slideright;
+    animation-duration: 1s;
+    transition: transform 1.5s ease;
+    opacity: 1;
+    // z-index: 20;
+}
+
+.slideleft {
+    animation-name: slideleft;
+    animation-duration: 1.5s;
+    transition: transform 1.5s ease;
+    opacity: 1;
+    // z-index: 20;
+}
+
+.slidetop {
+    animation-name: slidetop;
+    animation-duration: 1s;
+    transition: 1.5s ease;
+    opacity: 1;
+}
+
+.slidetop1 {
+    animation-name: slidetop;
+    animation-duration: 1.5s;
+    transition: transform 1.5s ease;
+    opacity: 1;
+}
+
+.slidetop2 {
+    animation-name: slidetop;
+    animation-duration: 2s;
+    transition: transform 1.5s ease;
+    opacity: 1;
+}
+
+.slidetop3 {
+    animation-name: slidetop;
+    animation-duration: 2.5s;
+    transition: transform 1.5s ease;
+    opacity: 1;
+}
+
+@keyframes slidein {
+
+
+    50% {
+        background: url("https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+
+    /* 75% {
+        background: url("https://preview.colorlib.com/theme/jackson/images/ximg_bg_1.jpg.pagespeed.ic.K0-0yxdthm.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    } */
+
+    100% {
+        background: url("https://cdn.pixabay.com/photo/2016/11/29/09/38/adult-1868750_960_720.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+
+}
+
+.activelink {
+    color: #2C98F0;
+}
+
+.sideicon {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    display: none;
+}
+
+
+@media screen and (max-width: 1030px) {
+    .service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagon  {
+        left: 27%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .main-container {
+        width: 100%;
+    }
+
+    .sidebar {
+        display: none;
+        transition: 1s ease;
+    }
+
+    .about-section .about-section__content .about-section__cards  {
+        display: block;
+        // grid-template-columns: 100%;
+        margin-top: 5%;
+
+        div {
+            padding: 32px 32px;
+
+            h3 {
+                margin: 30px 0;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .sideicon {
+        display: block;
+    }
+
+    .service-sec .service-sec__cards {
+        display: block;
+    }
+
+
+    .service-sec .service-sec__cards .service-sec__card .service-sec__card__content{
+        position: relative;
+        top: 100px;
+
+        p{
+            margin-top: 10px;
+        }
+    }
+
+    .service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagon  {
+        left: 44%;
+    }
+
+
+
+    .transparent-img {
+        height: 100vh;
+        position: relative;
+        margin-bottom: 5rem;
+
+        .transparent-img__grid {
+            display: block;
+            position: relative;
+            z-index: 2;
+
+            .transparent-img__col
+            {
+                height: 25vh;
+            }
+        }
+    }
+
+    .skills-section .skills-section__progressContainer {
+        margin-top: 2rem;
+        display: block;
+    }
+
+    .work-section .work-section__cards{
+        display: block;
+    }
+
+    .contact-section .contact-section__grid {
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagon  {
+        left: 38%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .service-sec .service-sec__cards .service-sec__card .service-sec__card--hexagon  {
+        left: 35%;
+    }
+}
